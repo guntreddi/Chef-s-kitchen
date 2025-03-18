@@ -1,0 +1,68 @@
+.navbar-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: rebeccapurple; */
+
+  width: 90%;
+  margin: auto;
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-header img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.items {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  font-size: large;
+  margin-right: 300px;
+}
+.navbar-header h1 {
+  font-size: 22px;
+  color: gray;
+  font-weight: bold;
+}
+
+.navbar-contact p{
+    margin-right: 200px;
+    font-size: larger   ;
+    cursor: pointer;
+   
+  
+}
+
+.navbar-items ul {
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+
+.navbar-contact {
+  margin: 10px -50px;
+
+}
+
+.navbar-login {
+        display: flex; 
+        flex-direction: row; 
+        gap: 20px; 
+        
+        padding: 20;
+        border-radius: 8px; 
+    
+}
+.navbar-login p{
+    border: 2px solid black; 
+    
+}
+
