@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+// import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -14,9 +14,9 @@ const Footer = () => {
             </div>
             <p>Open an account in minutes, get full financial control for much longer.</p>
             <div className="social-icons">
-              <FaFacebookF />
-              <FaInstagram />
-              <FaTwitter />
+              {/* <FaFacebookF /> */}
+              {/* <FaInstagram /> */}
+              {/* <FaTwitter /> */}
             </div>
           </div>
 
